@@ -1,0 +1,29 @@
+Used Cars
+
+// Identification Numbers
+
+id - INT - UNISIGNED - PRIMARY_KEY(NOTNULL - UNIQUE) - AUTOINCREMENT
+VIN - VARCHAR(17) - UNIQUE - NULL
+
+// Car Details
+
+model - VARCHAR(255) - NOTNULL
+poster - VARCHAR(255) - NULL
+registration_year - YEAR - NOTNULL
+mileage - DECIMAL(7,2) - NOTNULL
+color - VARCHAR(255) - NULL
+weight_kg - FLOAT(7,2) - NULL
+fuel_type - VARCHAR(255) - NOTNULL
+engine - VARCHAR(255) - NOTNULL
+number_of_owners - TINYINT - NULL
+price - DECIMAL(8,2) - NOTNULL
+description - TEXT - NULL
+location - VARCHAR(255) - NOTNULL
+
+
+// Seller Info
+
+seller - VARCHAR(255) - NOTNULL
+avg_seller_rating - FLOAT(3,1) - NOTNULL - DEFAULT(0)
+
+
